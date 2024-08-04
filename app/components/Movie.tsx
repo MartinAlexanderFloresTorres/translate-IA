@@ -20,8 +20,8 @@ export default async function Movie({ movie }: MovieProps) {
           </div>
         </div>
         <div className="p-4">
-          <h2 className="text-xl font-bold mb-2">{movie.title}</h2>
-          <p className="text-muted-foreground mb-4">{movie.overview}</p>
+          <h2 className="text-xl font-bold mb-2 break-words whitespace-normal">{movie.title}</h2>
+          <p className="text-muted-foreground mb-4 break-words whitespace-normal">{movie.overview}</p>
           <AItranslate mode="modal" value={movie.overview} />
         </div>
       </div>

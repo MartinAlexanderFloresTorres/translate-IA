@@ -18,7 +18,7 @@ export default function Review({ review }: ReviewProps) {
           <div className="font-semibold">{review.author_details.username}</div>
           <div className="text-xs text-muted-foreground">{format(new Date(review.created_at), 'medium')}</div>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: review.content }} />
+        <div className="break-words whitespace-normal" dangerouslySetInnerHTML={{ __html: review.content }} />
         <div className="flex items-center gap-2">
           <StarIcon className="w-5 h-5 fill-yellow-400 stroke-yellow-400" />
           <StarIcon className="w-5 h-5 fill-yellow-400 stroke-yellow-400" />

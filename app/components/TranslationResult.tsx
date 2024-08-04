@@ -7,7 +7,7 @@ export default function TranslationResult({ translatedText, isStreaming, classNa
 
   return (
     <div className={twMerge('rounded-md bg-gray-50 p-4 flex gap-4 items-end justify-between animate-fadein', className)}>
-      <div className={'text-gray-600 text-[18px]'} dangerouslySetInnerHTML={{ __html: translatedText }} ref={textDivRef} />
+      <div className={'text-gray-600 text-[18px] w-full break-words whitespace-normal'} dangerouslySetInnerHTML={{ __html: translatedText }} ref={textDivRef} />
 
       {isStreaming ? (
         <div className="flex items-center justify-center text-gray-400 bg-gray-50 rounded-md p-2 transition-colors">
