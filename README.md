@@ -51,7 +51,7 @@ npm run dev
 4. Utiliza el botón de cancelar si necesitas detener la traducción en curso.
 
 ## Uso del componente `AItranslate`:
-```bash
+```tsx
  <AItranslate
     mode="modal" // (required) mode: "modal" or "inline"
     value="Hello world" // (required) text to translate
