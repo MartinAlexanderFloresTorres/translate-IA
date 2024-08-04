@@ -3,7 +3,7 @@ import { TranslationFormProps } from '../interfaces';
 
 export default function TranslationForm({ text, isLoading, disabledConfirm, disabledClear, isStreaming, clearText, handleCancel, setText, handleTranslate }: TranslationFormProps) {
   return (
-    <div className="flex items-start flex-col md:flex-row gap-2">
+    <div className="flex items-start flex-col md:flex-row gap-3">
       <textarea
         value={text}
         onChange={(e) => setText(e.target.value)}
@@ -11,7 +11,7 @@ export default function TranslationForm({ text, isLoading, disabledConfirm, disa
         placeholder="Ingresa el texto que deseas traducir"
         disabled={isLoading}
       ></textarea>
-      <div className="ml-auto flex flex-row md:flex-col gap-2 min-w-40">
+      <div className="ml-auto flex flex-row-reverse md:flex-col gap-3 min-w-40">
         {!isStreaming ? (
           <button
             className="relative w-full min-w-32 h-[48px] flex items-center justify-center whitespace-nowrap bg-black text-white hover:bg-opacity-60 disabled:hover:bg-black disabled:opacity-50 rounded-md px-6 py-3 text-sm font-medium shadow-sm transition-colors"
