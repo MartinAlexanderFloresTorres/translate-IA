@@ -48,6 +48,22 @@ npm run dev
 3. Haz clic en "Traducir" para obtener la traducción en tiempo real.
 4. Utiliza el botón de cancelar si necesitas detener la traducción en curso.
 
+## Uso del componente `AItranslate`:
+```bash
+ <AItranslate
+    mode="modal" // (required) mode: "modal" or "inline"
+    value="Hello world" // (required) text to translate
+    showLenguageSelector // (optional) show the lenguage selector
+    source="en" // (optional) If the original language is not specified, it will be deducted
+    target={{
+      languageName: 'Español',
+      shortCode: 'es',
+      fullLocaleCode: 'es-ES',
+    }} // (optional) the target language will be obtained from the user if it is not specified
+/>
+
+```
+
 ## Contribución
 
 ¡Las contribuciones son bienvenidas! Si deseas colaborar
