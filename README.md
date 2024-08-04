@@ -1,37 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## TRANSLATE IA
+![1](https://github.com/user-attachments/assets/87156c68-c61f-47b1-84d7-d7ece395868a)
+![2](https://github.com/user-attachments/assets/4f6d5262-8ab3-40bf-abc3-ea9a561be6d3)
+![3](https://github.com/user-attachments/assets/6dc32b2b-bd5f-42a1-b9c5-5b577181ada2)
 
-First, run the development server:
 
+## Descripción
+
+translate-ia es una aplicación web que utiliza inteligencia artificial para traducir texto de manera eficiente y precisa. Con detección automática de idioma, traducción en tiempo real y opciones personalizables, ofrece una experiencia fluida y accesible para todos los usuarios.
+
+## Características
+
+- **Detección Automática de Idioma**: La aplicación identifica automáticamente el idioma del texto de entrada.
+- **Traducción en Tiempo Real**: Traduce el texto al instante mientras se escribe.
+- **Selector de Idiomas**: Permite elegir el idioma de destino de una lista de opciones.
+- **Interfaz Intuitiva**: Diseño fácil de usar, adecuado para todo tipo de usuarios.
+- **Soporte para Múltiples Idiomas**: Compatible con una amplia variedad de idiomas.
+
+## Instalación
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/MartinAlexanderFloresTorres/translate-IA
+```
+4. Navega al directorio del proyecto:
+```bash
+cd translate-IA
+```
+7. Instala las dependencias:
+```bash
+npm install
+```
+9. Inicia la aplicación:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+10. Abrir la URL que te brinda en la terminal:
+[http://localhost:3000](http://localhost:3000)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Requerimientos
+1. Tener una api key de https://platform.openai.com/api-keys
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Uso
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Ingresa el texto en el campo de entrada.
+2. Selecciona el idioma de destino si es necesario.
+3. Haz clic en "Traducir" para obtener la traducción en tiempo real.
+4. Utiliza el botón de cancelar si necesitas detener la traducción en curso.
 
-## Learn More
+## Contribución
 
-To learn more about Next.js, take a look at the following resources:
+¡Las contribuciones son bienvenidas! Si deseas colaborar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contacto
 
-## Deploy on Vercel
+Para preguntas o comentarios, puedes contactarnos en [martinalexanderflorestorres@gmail.com](mailto:martinalexanderflorestorres@gmail.com).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# translate-IA
